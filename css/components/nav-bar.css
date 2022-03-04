@@ -30,6 +30,7 @@
   color: white;
   font-weight: 600;
   position: absolute;
+  /* text-align: center; */
   left: 23px;
   bottom: 19px;
 }
@@ -38,7 +39,7 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  display: flex;
+  /* display: flex; */
   background-color: tomato;
   position: absolute;
   right: -3px;

@@ -1,0 +1,18 @@
+.screen-header {
+  /* 고정된 status-bar 간격만큼 내림.  */
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 21px;
+}
+
+.screen-header__title {
+  font-size: 34px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 21px;
+}
