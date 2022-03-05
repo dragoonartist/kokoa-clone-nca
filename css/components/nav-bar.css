@@ -25,14 +25,3 @@
   left: 23px;
   bottom: 19px;
 }
-
-.nav__noti-dot {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  /* display: flex; */
-  background-color: tomato;
-  position: absolute;
-  right: -3px;
-  top: -3px;
-}
