@@ -8,11 +8,13 @@
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
 @import url("components/badge.css");
+@import url("components/row-icons.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/freiends.css");
 @import url("screens/find.css");
+@import url("screens/more.css");
 
 body {
   color: #2f363e;
