@@ -11,7 +11,9 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 33%;
+  border-radius: 41%;
+  /* 사진 찌그러짐 방지 */
+  object-fit: cover;
 }
 
 .user-component__text {
@@ -46,6 +48,8 @@
 
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
-  align-items: center;
+  align-items: flex-end;
   /* justify-content: space-between; */
+  flex-direction: column;
+  justify-content: center;
 }
