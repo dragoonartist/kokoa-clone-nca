@@ -9,12 +9,14 @@
 @import url("components/user-component.css");
 @import url("components/badge.css");
 @import url("components/row-icons.css");
+@import url("components/alt-header.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/freiends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/settings.css");
 
 body {
   color: #2f363e;
