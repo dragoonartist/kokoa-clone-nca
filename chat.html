@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>chat w/Karina - Kokoa Clone</title>
   </head>
-  <body class="chat-body">
+  <body id="chat-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -38,12 +38,14 @@
         <h1 class="alt-header__title">Karina</h1>
       </div>
       <div class="alt-header__column">
-        <i class="fas fa-search fa-2x"></i>
-        <i class="fas fa-bars fa-2x bars"></i>
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x bars"></i></span>
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen chat-screen">
+      <div class="chat-screen__timestamp">Tuesday, June30, 2020</div>
+    </main>
 
     <!-- script -->
     <script

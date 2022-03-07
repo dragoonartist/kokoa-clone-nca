@@ -1,7 +1,23 @@
-.chat-body {
+#chat-body {
+  background-color: #abc0d0;
+  height: 11000vh;
+}
+
+#chat-body .status-bar {
+  z-index: 2;
+}
+
+#chat-body .alt-header {
+  position: fixed;
+  top: 30px;
+  z-index: 1;
+}
+
+#chat-body .alt-header,
+#chat-body .status-bar {
   background-color: #abc0d0;
 }
 
-.bars {
-  margin-left: 7px;
+.chat-screen {
+  margin-top: 104px;
 }
