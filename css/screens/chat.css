@@ -103,3 +103,67 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0;
+
+  padding: 3px 21px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background-color: white;
+}
+
+.reply__column {
+  display: flex;
+  align-items: center;
+}
+.reply__column i {
+  font-size: 23px;
+  opacity: 0.7;
+}
+.reply .reply__column:first-child {
+  width: 8%;
+}
+
+.reply .reply__column:last-child {
+  width: 92%;
+  position: relative;
+}
+
+.reply__column:last-child input {
+  width: 100%;
+  border: var(--border-line);
+  border-radius: 20px;
+
+  padding: 8px;
+}
+
+.reply__column:last-child > i,
+.reply__column:last-child button {
+  position: absolute;
+
+  top: 3px;
+  right: 3px;
+}
+
+.reply__column:last-child > i {
+  top: 10px;
+  right: 55px;
+}
+
+.reply__column:last-child button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+}
+
+.reply__column:last-child button i {
+  opacity: 1;
+}
